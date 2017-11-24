@@ -7,30 +7,38 @@
   "title": "compositor",
   "branch": "master",
   "style": {
-    "name": "Humanist",
+    "name": "Future",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/LightBannerHeader",
-      "article": "article/ReaderArticle",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
       "footer": "footer/BasicFooter"
     },
-    "fontFamily": "Athelas, Georgia, serif",
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
     "heading": {
-      "fontWeight": 400,
+      "fontWeight": 500,
       "textTransform": "uppercase",
-      "letterSpacing": "0.1em"
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
     },
     "colors": {
-      "text": "#121212",
+      "text": "#333",
       "background": "#fff",
-      "primary": "#ee5544",
-      "secondary": "#005499",
-      "highlight": "#00bd78",
-      "border": "#ddd",
-      "muted": "#f3f3f3"
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
     },
     "layout": {
-      "maxWidth": 768
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
     }
   },
   "content": [
